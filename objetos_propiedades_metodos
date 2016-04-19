@@ -1,0 +1,41 @@
+//Básicos de JavaScript
+//ejemplo de objetos Propiedades y métodos
+
+var familia = {
+  miembros : 3,
+  hijos : 1,
+  pais : 'colombia',
+  ciudad: 'medellin'  
+};
+
+//console.log (familia);
+
+/* puedo llamar a un elemento específico de la familia, para esto uso la misma notación anterior y con el operador (.) seguido de la propiedad que quiero utilizar.*/
+
+/*para visualizar el resultado que arroja cada una de las líneas de código, es neceario descomentar la línea y presionando CTRL+ENTER se visualizarán los resulatados en la pestaña Console */
+
+//console.log(familia.miembros);
+//console.log(familia.hijos);
+//console.log(familia.pais);
+//console.log(familia.ciudad);
+
+
+/*Un objeto puede tener propiedades y métodos. Las propiedades son datos y los métodos son funciones, veamos un ejemplo*/
+
+var familia = {
+  miembros : 3,    // una propiedad es un dato
+  hijos : 1,
+  pais : 'colombia',
+  ciudad: 'medellin',
+  viajar: function(){    // Un método es una funión
+  console.log('Nos vamos de viaje');
+  }
+};
+
+
+console.log(familia.viajar); /* de esta forma observo la función pero en realidad no la estaría ejecutando*/
+
+
+/*para ejecutar una fucción en JS es necesario emplear la siguiente notación */
+console.log(familia.viajar()); // abre y cierra parentesis 
+
