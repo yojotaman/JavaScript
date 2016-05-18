@@ -1,17 +1,18 @@
 El objetivo principal de los archivos de esta carpeta será la familiarización con las funcionalidades básicas del lenguaje JavaScript, 
 cada uno de los archivos trata de explicar cada uno de los elementos y su correcto uso dentro de un programa.
 Para su mejor comprensión se sugiere que las guias sean seguidas en el siguiente orden.
+Se parte de la idea de que se debe tener una idea de los conceptos básicos de la programación tales como: operadores relacionales, variables, loops, entre otros
 
 Espero que sean de utilidad.
 
-1.  
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+1.  Número mágico
+2.  DOM_elements
+3.  Events
+4.  Arrays
+5.  Array_methods
+6.  Filter_ES5
+7.  MAP_ES5
+8.  ForEach_ES5
 9.
 10.
 11.
